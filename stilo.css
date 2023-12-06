@@ -304,5 +304,12 @@ width: 195px;
 img#img2{
     height: 124px;
 }
-
-
+img#img5{
+    height: 200px;
+    width: 300px;
+    margin-left: 0px;
+    top: auto;
+}
+img#img6{
+    height: 200px;
+}
