@@ -57,12 +57,12 @@ ul li{
 }
 ul li a{
     padding: 1px;
-    color:white;
+    color:rgb(255, 0, 0);
     text-decoration: none;
     border-radius:10px;
 }
 ul li a:hover{
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 
@@ -104,9 +104,9 @@ ul li a:hover{
 /*Button Styling*/
 .btn{
     margin-top:15px;
-    border: 3px solid white;
+    border: 3px solid rgba(255, 0, 0, 0.801);
     border-radius:15px;
-    background-color:yellow;
+    background-color:rgb(55, 0, 255);
     font-size:20px;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
@@ -173,7 +173,7 @@ ul li a:hover{
 
 #top3{
     text-align: center;
-    color:red;
+    color:rgba(27, 175, 89, 0.541);
     font-family: 'Ubuntu Mono', monospace;
 }
 #container4{
@@ -222,7 +222,7 @@ footer{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color:maroon;
 }
 .form-shape input, .form-shape select, .form-shape textarea{
    width: 92%;
@@ -230,7 +230,7 @@ footer{
 }
 /*Changing the color of placeholder*/
 ::placeholder{                  
-    color:gray;
+    color:chocolate;
 }
 /*Making the webpage responsive using media queries*/
 @media only screen and (max-width:1131px){
@@ -312,4 +312,8 @@ img#img5{
 }
 img#img6{
     height: 200px;
+}
+content{
+    display: flex;
+    justify-content: center;
 }
