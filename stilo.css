@@ -106,7 +106,7 @@ ul li a:hover{
     margin-top:15px;
     border: 3px solid rgba(255, 0, 0, 0.801);
     border-radius:15px;
-    background-color:rgb(55, 0, 255);
+    background-color:rgb(255, 255, 255);
     font-size:20px;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
@@ -173,7 +173,7 @@ ul li a:hover{
 
 #top3{
     text-align: center;
-    color:rgba(27, 175, 89, 0.541);
+    color:rgb(0, 0, 0);
     font-family: 'Ubuntu Mono', monospace;
 }
 #container4{
@@ -316,4 +316,17 @@ img#img6{
 content{
     display: flex;
     justify-content: center;
+}
+img#imagem{
+    height: auto;
+    width: auto;
+    margin: auto;
+    border: aquamarine;
+    text-align: auto;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+html{
+    background-color: aqua;
 }
